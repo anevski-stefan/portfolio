@@ -213,7 +213,7 @@ if(isset($_POST['submit'])){
     <section class="s2" id="contact_part">
       <div class="main-container">
         <h3 style="text-align: center">Get In Touch</h3>
-        <form id="contact-form" method="post" action="mailto:anevskiistefan@gmail.com?cc=<?php echo $email; ?>&subject=<?php echo $subject; ?>">
+        <form id="contact-form" method="post">
           <label>Name</label>
           <input type="text" name="name" class="input-field" />
 
@@ -225,7 +225,8 @@ if(isset($_POST['submit'])){
 
           <label>Message</label>
           <textarea name="message" class="input-field"></textarea>
-          <input id="submit-btn" type="submit" value="Send" name="submit"/>
+          <!-- <input id="submit-btn" type="submit" value="Send" name="submit"/> -->
+          <a href="mailto:anevskiistefan@gmail.com?cc=<?php echo $email; ?>&subject=<?php echo $subject; ?>" id="submit-btn"></a>
         </form>
       </div>
       <div id="status"></div>
