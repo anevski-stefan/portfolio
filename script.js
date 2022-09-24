@@ -35,3 +35,13 @@ function setTheme(mode) {
 
   localStorage.setItem("theme", mode);
 }
+
+
+function sendMail(){
+  var name = document.getElementById("name").value;
+  var subject = document.getElementById("subject").value;
+  var email = document.getElementById("email").value;
+  var body = document.getElementById("message").value;
+
+  window.location.href="mailto:anevskistefan31@gmail.com?subject="+subject+"&body="+body+"&cc="+email;
+}
