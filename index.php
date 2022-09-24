@@ -226,7 +226,9 @@ if(isset($_POST['submit'])){
           <label>Message</label>
           <textarea name="message" class="input-field"></textarea>
           <!-- <input id="submit-btn" type="submit" value="Send" name="submit"/> -->
+          <div id="submit-btn">
           <a href="mailto:anevskiistefan@gmail.com?cc=<?php echo $email; ?>&subject=<?php echo $subject; ?>" id="submit-btn" name="submit">Send</a>
+          </div>          
         </form>
       </div>
       <div id="status"></div>
