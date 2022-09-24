@@ -30,7 +30,7 @@
             </div>
 
             <ul id="navigation">
-              <li><a href="#">Contact</a></li>
+              <li><a href="#contact_part">Contact</a></li>
             </ul>
           </div>
 
@@ -101,19 +101,25 @@
 
             <div id="skills">
               <ul>
-                <li>Python</li>
-                <li>Django</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Postgres</li>
+                <li>Java</li>
+                <li>Nodejs</li>
+                <li>Express</li>
+                <li>Mysql</li>
+                <li>PHP</li>
+                <li>OOP</li>
+                <li>MongoDB</li>
+                <li>Ajax</li>
               </ul>
 
               <ul>
-                <li>Google Maps API</li>
-                <li>JS Charts</li>
-                <li>AWS (RDS/S3)</li>
+                <li>Bootstrap</li>
+                <li>Git</li>
+                <li>Responsive UI Design</li>
                 <li>Heroku</li>
                 <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Jquery</li>
+                <li>Wordpress</li>
               </ul>
             </div>
           </div>
@@ -123,10 +129,12 @@
               src="images/following.jpg"
               alt="Follow picture"
             />
-            <h3>Find me on Twitter & Youtube</h3>
-            <a target="_blank" href="#">Youtube: @anevskii</a>
+            <h3>Find me on Facebook, Linkedin or Skype</h3>
+            <span>Facebook: <a target="_blank" href="https://www.facebook.com/anevskis/">Stefan Anevski</a></span>
             <br />
-            <a target="_blank" href="#">Twitter: @anevskii</a>
+            <span>Linkedin: <a target="_blank" href="https://www.linkedin.com/in/stefan-anevski-ab4712177">Stefan Anevski</a></span>
+            <br />
+            <span>Skype: <a target="_blank" href="https://join.skype.com/invite/IOB5XpvXO4Fv">stefan.anevski8</a></span>
           </div>
         </div>
       </div>
@@ -140,16 +148,16 @@
             <div class="post">
               <img
                 class="thumbnail"
-                src="images/project1.jpg"
+                src="images/project1.png"
                 alt="Project 1 Picture"
               />
               <div class="post-preview">
-                <h6 class="post-title">Laboratory Management System</h6>
+                <h6 class="post-title">Note Taking App</h6>
                 <p class="post-intro">
                   Designed build & maintained a the lab management system for
                   FOI Laboratories
                 </p>
-                <a href="post.html">Read More</a>
+                <a href="post.html">Link to the app</a>
               </div>
             </div>
           </div>
@@ -157,16 +165,16 @@
             <div class="post">
               <img
                 class="thumbnail"
-                src="images/project2.jpg"
+                src="images/project2.png"
                 alt="Project 1 Picture"
               />
               <div class="post-preview">
-                <h6 class="post-title">Online Store - CoursePost Title</h6>
+                <h6 class="post-title">Authentication & Authorization System</h6>
                 <p class="post-intro">
                   Online store with paypal payments integration and guest user
                   shopping
                 </p>
-                <a href="#">Read More</a>
+                <a href="#">Link to the app</a>
               </div>
             </div>
           </div>
@@ -178,12 +186,12 @@
                 alt="Project 1 Picture"
               />
               <div class="post-preview">
-                <h6 class="post-title">Membership Website</h6>
+                <h6 class="post-title">Landing Page</h6>
                 <p class="post-intro">
                   Modulized guide for online courses with step by step
                   instructions
                 </p>
-                <a href="#">Read More</a>
+                <a href="#">Link to the app</a>
               </div>
             </div>
           </div>
@@ -191,10 +199,10 @@
       </div>
     </section>
 
-    <section class="s2">
+    <section class="s2" id="contact_part">
       <div class="main-container">
         <h3 style="text-align: center">Get In Touch</h3>
-        <form id="contact-form">
+        <form id="contact-form" method="post" action="https://formspree.io/f/meqdggbo">
           <label>Name</label>
           <input type="text" name="name" class="input-field" />
 
@@ -206,7 +214,7 @@
 
           <label>Message</label>
           <textarea name="message" class="input-field"></textarea>
-          <input id="submit-btn" type="submit" value="Send" />
+          <input id="submit-btn" type="submit" value="Send" name="submit"/>
         </form>
       </div>
     </section>
