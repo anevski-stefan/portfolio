@@ -1,3 +1,14 @@
+<?php
+
+if(isset($_POST['submit'])){
+  $name = $_POST['name']; 
+  $subject = $_POST['subject']; 
+  $email = $_POST['email']; 
+  $message = $_POST['message']; 
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -202,7 +213,7 @@
     <section class="s2" id="contact_part">
       <div class="main-container">
         <h3 style="text-align: center">Get In Touch</h3>
-        <form id="contact-form" method="post" action="https://formspree.io/f/meqdggbo">
+        <form id="contact-form" method="post" action="mailto:anevskiistefan@gmail.com?cc=<?php echo $email; ?>&subject=<?php echo $subject; ?>">
           <label>Name</label>
           <input type="text" name="name" class="input-field" />
 
