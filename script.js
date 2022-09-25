@@ -38,11 +38,13 @@ function setTheme(mode) {
 
 
 function sendMail(){
-  var name = document.getElementById("name").value;
   var subject = document.getElementById("subject").value;
   var email = document.getElementById("email").value;
   var body = document.getElementById("message").value;
 
   window.location.href="mailto:anevskistefan31@gmail.com?subject="+subject+"&body="+body+"&cc="+email;
-  window.location.href = "index.html";
+}
+
+function redirect(){
+  window.location.href="https://anevski-stefan.github.io/portfolio/";
 }
