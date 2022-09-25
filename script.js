@@ -46,5 +46,6 @@ function sendMail(){
 }
 
 function redirect(){
-  window.location.reload();
+  // window.location.reload();
+  window.location.href="https://anevski-stefan.github.io/portfolio/";
 }
