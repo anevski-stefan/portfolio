@@ -44,4 +44,5 @@ function sendMail(){
   var body = document.getElementById("message").value;
 
   window.location.href="mailto:anevskistefan31@gmail.com?subject="+subject+"&body="+body+"&cc="+email;
+  window.location.href = "index.html";
 }
