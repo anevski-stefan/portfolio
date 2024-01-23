@@ -1,20 +1,20 @@
 ---
-title: Hello, World!
+title: Vue 3 3
 description: This is my very first blog post and i'm so excited to share it!
 date: 2024-01-23
 cover: premium_photo-1678565869434-c81195861939.avif
 tags: 
-    - blog
+    - vue
 
 ---
 
-# Hello World!
+# Vue 3 3
 
 This is a paragraph.
 
 This is another paragraph.
 
-![Developer](/images/blog/premium_photo-1678565869434-c81195861939.avif)
+![Developer](/images/blog/photo-1604964432806-254d07c11f32.avif)
 
 
 ## This is a heading 2
