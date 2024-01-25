@@ -8,7 +8,8 @@ const navigation = [
   { name: 'Home', href: '/', current: route.name == 'index' },
   { name: 'Blog', href: '/blog', current: route.name.includes('blog') },
   { name: 'Projects', href: '/projects', current: route.name == 'projects' },
-  { name: 'Uses', href: '/uses', current: route.name == 'uses' },
+  { name: 'About me', href: '/aboutme', current: route.name == 'aboutme' },
+  { name: 'Contact', href: '/contact', current: route.name == 'contact' },
 ]
 </script>
 
@@ -27,7 +28,7 @@ const navigation = [
           </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center">
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+              <h2><a class="text-white cursor-pointer" href="/">SA</a></h2>
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
