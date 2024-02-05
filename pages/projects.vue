@@ -23,10 +23,7 @@
       }
     }
   }
-}
-
-
-    `
+}`
 
     const {data} = await useAsyncQuery(query);
 </script>

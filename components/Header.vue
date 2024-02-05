@@ -8,6 +8,8 @@ const navigation = [
   { name: 'Home', href: '/', current: route.name == 'index' },
   { name: 'Blog', href: '/blog', current: route.name.includes('blog') },
   { name: 'Projects', href: '/projects', current: route.name == 'projects' },
+  { name: 'Skills', href: '/skills', current: route.name == 'skills' },
+  { name: 'Experience', href: '/experience', current: route.name == 'experience' },
   { name: 'About me', href: '/aboutme', current: route.name == 'aboutme' },
   { name: 'Contact', href: '/contact', current: route.name == 'contact' },
 ]
@@ -38,7 +40,7 @@ const navigation = [
           </div>
         </div>
       </div>
-  
+
       <DisclosurePanel class="sm:hidden">
         <div class="space-y-1 px-2 pb-3 pt-2">
           <DisclosureButton v-for="item in navigation" :key="item.name" as="a" :href="item.href" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block rounded-md px-3 py-2 text-base font-medium']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</DisclosureButton>
